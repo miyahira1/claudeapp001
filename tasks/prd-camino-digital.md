@@ -385,3 +385,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 698ms.
 
 **Chrome verification:** All 4 stats and 5 featured-in badges rendered. No console errors.
+
+### 2026-05-23 — US-006: Home — Featured Tutorials Section
+
+**Changed:** Built FeaturedTutorials section, created src/data/tutorials.ts with 4 mock tutorials and src/types/index.ts with shared TypeScript interfaces. Cards show gradient thumbnail placeholders with play button overlay, category tag, duration badge, title, view count, duration. Horizontal scroll on mobile. "Ver Todos los Tutoriales" link.
+
+**Commands run:** `npm run build` — zero TS errors, built in 765ms.
+
+**Chrome verification:** All 4 tutorial cards visible with titles, categories, view counts, durations. No console errors.
