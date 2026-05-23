@@ -353,3 +353,11 @@ src/
 **Commands run:** `npm run build` — zero TypeScript errors, built in 562ms.
 
 **Chrome verification:** Navigated to http://localhost:5173 — page redirected to /claudeapp001/ and rendered "Home" correctly with dark background and Space Grotesk font. No console errors detected.
+
+### 2026-05-23 — US-002: Layout — Header & Navigation
+
+**Changed:** Built sticky Header component at src/components/layout/Header.tsx. Features: logo with Zap icon + gradient, 5 nav links (Home/AI Tools/Resources/Premium/Consulting) with active highlight via NavLink, "Únete Gratis" CTA button scrolling to #newsletter, glassmorphism background on scroll, mobile hamburger with slide-in drawer. Installed clsx and tailwind-merge for cn utility. Wired Header into App.tsx above Routes.
+
+**Commands run:** `npm run build` — zero TS errors, built in 612ms.
+
+**Chrome verification:** All 5 nav links visible in header, "Únete Gratis" CTA present, active route highlighted. No console errors.

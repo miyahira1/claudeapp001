@@ -3,7 +3,7 @@
 | ID | Title | Status |
 |---|---|---|
 | US-001 | Project Scaffolding & Deployment Pipeline | passing |
-| US-002 | Layout — Header & Navigation | failing |
+| US-002 | Layout — Header & Navigation | passing |
 | US-003 | Layout — Footer | failing |
 | US-004 | Home — Hero Section | failing |
 | US-005 | Home — Social Proof Bar | failing |

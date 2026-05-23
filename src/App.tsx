@@ -1,4 +1,5 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
+import Header from './components/layout/Header'
 import Home from './pages/Home'
 import Tools from './pages/Tools'
 import Resources from './pages/Resources'
@@ -8,6 +9,7 @@ import Consulting from './pages/Consulting'
 export default function App() {
   return (
     <HashRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tools" element={<Tools />} />
