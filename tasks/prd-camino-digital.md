@@ -401,3 +401,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 790ms.
 
 **Chrome verification:** All 3 workflow cards with names, descriptions, tool badges, CTAs. No console errors.
+
+### 2026-05-23 — US-008: Home — Newsletter Lead Capture
+
+**Changed:** Built Newsletter section with controlled React form. Features: lead magnet badge "Pack de 50 Prompts de IA", headline, subheadline, email input with mail icon, "Suscribirme Gratis" button, success state (¡Gracias! Revisa tu email.) with CheckCircle icon, privacy micro-copy "Sin spam. Cancela cuando quieras." Section id="newsletter" for header CTA scroll anchor.
+
+**Commands run:** `npm run build` — zero TS errors, built in 751ms.
+
+**Chrome verification:** Newsletter section rendered with lead magnet badge, form, privacy copy. Success state verified to fire on submit. No console errors.
