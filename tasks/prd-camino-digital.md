@@ -417,3 +417,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 700ms.
 
 **Chrome verification:** All 6 home sections confirmed rendering (Hero, SocialProof, Tutorials, Workflows, Newsletter, Resources). No console errors.
+
+### 2026-05-23 — US-010: AI Tools Directory Page
+
+**Changed:** Built full Tools page at src/pages/Tools.tsx. Created src/data/tools.ts with 16 AI tools across 6 categories. Features: page header, featured ChatGPT card with "Herramienta Destacada" badge, search bar (UI only), 7 category filter tabs (Todos/Escritura/Automatización/Imágenes/Video/Productividad/Negocios) that filter the grid, 15 tool cards with gradient logo placeholder, name, category, description, star rating, "Ver Herramienta" link.
+
+**Commands run:** `npm run build` — zero TS errors, built in 745ms.
+
+**Chrome verification:** /tools route loads with featured card, search, 7 category tabs, full tool grid. No console errors.
