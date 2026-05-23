@@ -377,3 +377,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 684ms.
 
 **Chrome verification:** Badge, full gradient headline, subheadline, both CTAs visible. All 6 section regions present. No console errors.
+
+### 2026-05-23 — US-005: Home — Social Proof Bar
+
+**Changed:** Implemented SocialProofBar at src/components/sections/SocialProofBar.tsx. 4 stat cards (50K+ Suscriptores, 200+ Videos, 15+ Países, 10K+ Descargas) with icons and Framer Motion scroll animations, plus "Mencionado en" row with 5 brand badges (Forbes, HubSpot, Product Hunt, LinkedIn News, Entrepreneur).
+
+**Commands run:** `npm run build` — zero TS errors, built in 698ms.
+
+**Chrome verification:** All 4 stats and 5 featured-in badges rendered. No console errors.

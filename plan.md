@@ -6,7 +6,7 @@
 | US-002 | Layout — Header & Navigation | passing |
 | US-003 | Layout — Footer | passing |
 | US-004 | Home — Hero Section | passing |
-| US-005 | Home — Social Proof Bar | failing |
+| US-005 | Home — Social Proof Bar | passing |
 | US-006 | Home — Featured Tutorials Section | failing |
 | US-007 | Home — AI Workflows Showcase | failing |
 | US-008 | Home — Newsletter Lead Capture | failing |
