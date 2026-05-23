@@ -369,3 +369,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors (fixed icon import mismatch first attempt), built in 608ms.
 
 **Chrome verification:** Footer fully rendered with logo, tagline, all 4 columns, social links, copyright 2026. No console errors.
+
+### 2026-05-23 — US-004: Home — Hero Section
+
+**Changed:** Built Hero section at src/components/sections/Hero.tsx. Features: animated gradient blob background (3 blurred circles with pulse animation), subscriber badge "50,000+ Suscriptores", 3-line gradient headline with Framer Motion fade-up animations, Spanish subheadline, two CTAs ("Explorar Recursos Gratis" primary gradient, "Ver el Canal →" ghost). Created stub sections for SocialProofBar, FeaturedTutorials, AIWorkflows, Newsletter, FeaturedResources. Updated Home.tsx to compose all sections.
+
+**Commands run:** `npm run build` — zero TS errors, built in 684ms.
+
+**Chrome verification:** Badge, full gradient headline, subheadline, both CTAs visible. All 6 section regions present. No console errors.
