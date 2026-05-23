@@ -425,3 +425,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 745ms.
 
 **Chrome verification:** /tools route loads with featured card, search, 7 category tabs, full tool grid. No console errors.
+
+### 2026-05-23 — US-011: Free Resources Page
+
+**Changed:** Built full Resources page at src/pages/Resources.tsx. 5 category tabs (Todos/Guías/Prompts/Plantillas/Checklists), 8 resource cards with gradient covers, category badges, download counts, "Descargar Gratis" buttons. Modal with email capture form on click, success state with CheckCircle animation. AnimatePresence for modal enter/exit.
+
+**Commands run:** `npm run build` — zero TS errors, built in 722ms.
+
+**Chrome verification:** 8 resource cards, 8 download buttons verified. No console errors.
