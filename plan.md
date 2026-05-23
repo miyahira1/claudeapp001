@@ -8,7 +8,7 @@
 | US-004 | Home — Hero Section | passing |
 | US-005 | Home — Social Proof Bar | passing |
 | US-006 | Home — Featured Tutorials Section | passing |
-| US-007 | Home — AI Workflows Showcase | failing |
+| US-007 | Home — AI Workflows Showcase | passing |
 | US-008 | Home — Newsletter Lead Capture | failing |
 | US-009 | Home — Featured Resources Preview | failing |
 | US-010 | AI Tools Directory Page | failing |

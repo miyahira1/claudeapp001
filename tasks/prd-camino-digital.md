@@ -393,3 +393,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 765ms.
 
 **Chrome verification:** All 4 tutorial cards visible with titles, categories, view counts, durations. No console errors.
+
+### 2026-05-23 — US-007: Home — AI Workflows Showcase
+
+**Changed:** Built AIWorkflows section with 3 cards: Automatiza tu Email con IA (ChatGPT/Make.com/Gmail), Crea Contenido con ChatGPT (ChatGPT/Notion/Buffer), Analiza Datos con Claude (Claude/Python/Google Sheets). Each card has icon, name, description, tool badge pills, and "Ver Workflow" CTA. Hover scale animation.
+
+**Commands run:** `npm run build` — zero TS errors, built in 790ms.
+
+**Chrome verification:** All 3 workflow cards with names, descriptions, tool badges, CTAs. No console errors.
