@@ -15,4 +15,4 @@
 | US-011 | Free Resources Page | passing |
 | US-012 | Premium Products Page | passing |
 | US-013 | Consulting / AI for Business Page | passing |
-| US-014 | Static Mock Data Layer | failing |
+| US-014 | Static Mock Data Layer | passing |

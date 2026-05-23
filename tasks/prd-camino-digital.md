@@ -449,3 +449,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 731ms.
 
 **Chrome verification:** All 5 sections (audiences, services, process, case studies, CTA) confirmed. Calendly CTA button visible. No console errors.
+
+### 2026-05-23 — US-014: Static Mock Data Layer
+
+**Changed:** Extracted testimonials from products.ts into dedicated src/data/testimonials.ts. Updated Premium.tsx to import from testimonials.ts. Final data layer: tools.ts (16 tools, 6 categories), resources.ts (8 resources, 4 categories), products.ts (3 tiers + 5 FAQs), testimonials.ts (3 testimonials), tutorials.ts (4 tutorials). All types exported from src/types/index.ts (Tutorial, AITool, Resource, Product, Testimonial, Workflow). Zero hardcoded content in JSX.
+
+**Commands run:** `npm run build` — zero TS errors, built in 817ms.
+
+**Chrome verification:** All 5 pages load correctly, data-driven content confirmed across all routes. No console errors.

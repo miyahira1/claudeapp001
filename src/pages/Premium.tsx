@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Check, ChevronDown, Star } from 'lucide-react'
-import { products, testimonials, faqs } from '../data/products'
+import { products, faqs } from '../data/products'
+import { testimonials } from '../data/testimonials'
 
 export default function Premium() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
