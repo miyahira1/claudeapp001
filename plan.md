@@ -14,5 +14,5 @@
 | US-010 | AI Tools Directory Page | passing |
 | US-011 | Free Resources Page | passing |
 | US-012 | Premium Products Page | passing |
-| US-013 | Consulting / AI for Business Page | failing |
+| US-013 | Consulting / AI for Business Page | passing |
 | US-014 | Static Mock Data Layer | failing |

@@ -441,3 +441,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 737ms.
 
 **Chrome verification:** 3 tiers visible, "Más Popular" badge on middle tier, 5 FAQ accordion buttons, 3 testimonial cards. No console errors.
+
+### 2026-05-23 — US-013: Consulting / AI for Business Page
+
+**Changed:** Built Consulting page with hero, 3 audience cards (PyMEs, Equipos, Emprendedores), 3 service cards with prices (Auditoría/Implementación/Formación), 4-step process timeline with step numbers, 2 case study cards with result metrics, Calendly CTA section with #cta anchor.
+
+**Commands run:** `npm run build` — zero TS errors, built in 731ms.
+
+**Chrome verification:** All 5 sections (audiences, services, process, case studies, CTA) confirmed. Calendly CTA button visible. No console errors.
