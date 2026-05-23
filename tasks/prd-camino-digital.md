@@ -341,3 +341,15 @@ src/
 ---
 
 *PRD version: 1.0 | Date: 2026-05-23 | Status: Ready for Implementation*
+
+---
+
+## Progress Log
+
+### 2026-05-23 — US-001: Project Scaffolding & Deployment Pipeline
+
+**Changed:** Bootstrapped full project from scratch. Initialized Vite + React 18 + TypeScript via `npm create vite@latest`. Installed react-router-dom, framer-motion, lucide-react, gh-pages, tailwindcss@3, postcss, autoprefixer. Configured Tailwind with brand design tokens (zinc-950 background, indigo/violet/cyan accents, Space Grotesk font). Set `base: '/claudeapp001/'` in vite.config.ts for GitHub Pages. Added `deploy` script and `homepage` field to package.json. Replaced default App.tsx with HashRouter + 5 route stubs. Replaced index.css with Google Fonts import and Tailwind directives. Created stub pages: Home, Tools, Resources, Premium, Consulting.
+
+**Commands run:** `npm run build` — zero TypeScript errors, built in 562ms.
+
+**Chrome verification:** Navigated to http://localhost:5173 — page redirected to /claudeapp001/ and rendered "Home" correctly with dark background and Space Grotesk font. No console errors detected.
