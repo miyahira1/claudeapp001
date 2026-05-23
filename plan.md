@@ -10,7 +10,7 @@
 | US-006 | Home — Featured Tutorials Section | passing |
 | US-007 | Home — AI Workflows Showcase | passing |
 | US-008 | Home — Newsletter Lead Capture | passing |
-| US-009 | Home — Featured Resources Preview | failing |
+| US-009 | Home — Featured Resources Preview | passing |
 | US-010 | AI Tools Directory Page | failing |
 | US-011 | Free Resources Page | failing |
 | US-012 | Premium Products Page | failing |

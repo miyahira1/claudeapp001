@@ -409,3 +409,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 751ms.
 
 **Chrome verification:** Newsletter section rendered with lead magnet badge, form, privacy copy. Success state verified to fire on submit. No console errors.
+
+### 2026-05-23 — US-009: Home — Featured Resources Preview
+
+**Changed:** Built FeaturedResources section showing first 3 resources from src/data/resources.ts (8 total resources created). Cards show gradient cover placeholder, file type badge, category, title, description, download count, "Descargar Gratis" CTA. "Ver Todos los Recursos" link to /resources page.
+
+**Commands run:** `npm run build` — zero TS errors, built in 700ms.
+
+**Chrome verification:** All 6 home sections confirmed rendering (Hero, SocialProof, Tutorials, Workflows, Newsletter, Resources). No console errors.
