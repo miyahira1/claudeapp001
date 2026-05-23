@@ -361,3 +361,11 @@ src/
 **Commands run:** `npm run build` — zero TS errors, built in 612ms.
 
 **Chrome verification:** All 5 nav links visible in header, "Únete Gratis" CTA present, active route highlighted. No console errors.
+
+### 2026-05-23 — US-003: Layout — Footer
+
+**Changed:** Built Footer component at src/components/layout/Footer.tsx. Features: brand logo + tagline, 4 link columns (Recursos/Herramientas/Premium/Legal), social icon links (YouTube/Twitter/LinkedIn/Instagram using lucide-react generics since branded icons not in this version), copyright line with dynamic year. Used generic lucide icons (Play/MessageSquare/Briefcase/Camera) as social placeholders. Wired Footer into App.tsx below Routes.
+
+**Commands run:** `npm run build` — zero TS errors (fixed icon import mismatch first attempt), built in 608ms.
+
+**Chrome verification:** Footer fully rendered with logo, tagline, all 4 columns, social links, copyright 2026. No console errors.
